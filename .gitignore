@@ -1,1 +1,28 @@
-.venv
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large files
+similarity.pkl
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Other files to ignore
+*.DS_Store
+*.egg-info/
+*.egg
